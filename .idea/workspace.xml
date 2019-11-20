@@ -16,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="344" column="69" selection-start-line="344" selection-start-column="54" selection-end-line="344" selection-end-column="69" />
+            <state relative-caret-position="260">
+              <caret line="204" column="19" selection-start-line="204" selection-start-column="19" selection-end-line="204" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -42,12 +42,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>bold</find>
-      <find>text-bold</find>
-      <find>mb</find>
-      <find>md</find>
-      <find>row-butt</find>
-      <find>my-row2</find>
       <find>row-button</find>
       <find>my-col</find>
       <find>width</find>
@@ -67,11 +61,17 @@
       <find>solid</find>
       <find>výkon</find>
       <find>tlacitko</find>
-      <find>text</find>
       <find>nazvy</find>
       <find>.mod</find>
       <find>více inf</find>
       <find>více</find>
+      <find>col4</find>
+      <find>koncept</find>
+      <find>+420</find>
+      <find>text</find>
+      <find>class=&quot;text&quot;</find>
+      <find>centered</find>
+      <find>img-text</find>
     </findStrings>
     <replaceStrings>
       <replace>progress-bar bg-warning</replace>
@@ -149,7 +149,7 @@
       <workItem from="1571729376405" duration="51166000" />
       <workItem from="1572017228904" duration="7191000" />
       <workItem from="1572507210679" duration="60985000" />
-      <workItem from="1574238631247" duration="9274000" />
+      <workItem from="1574238631247" duration="13309000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1574239160713</created>
@@ -312,11 +312,32 @@
       <option name="project" value="LOCAL" />
       <updated>1574255955478</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="test">
+      <created>1574258337331</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1574258337331</updated>
+    </task>
+    <task id="LOCAL-00025" summary="test">
+      <created>1574258373825</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1574258373825</updated>
+    </task>
+    <task id="LOCAL-00026" summary="test">
+      <created>1574263296567</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1574263296567</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128616000" />
+    <option name="totallyTimeSpent" value="132651000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -381,8 +402,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="344" column="69" selection-start-line="344" selection-start-column="54" selection-end-line="344" selection-end-column="69" />
+        <state relative-caret-position="260">
+          <caret line="204" column="19" selection-start-line="204" selection-start-column="19" selection-end-line="204" selection-end-column="19" />
         </state>
       </provider>
     </entry>

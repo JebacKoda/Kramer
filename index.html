@@ -48,8 +48,7 @@
     }
     .text {
         color: white;
-        margin-left: 50px;
-        margin-top: -5px;
+        padding-top: 10px;
         font-family: Calibri;
     }
     .text-gdpr{
@@ -184,12 +183,25 @@
     .koncept{
         width: 150px;
         margin-left: 20px;
+        border-radius: 20px;
+    }
+    .img-text1{
+        position: absolute;
+        bottom: -20px;
+        left: 110px;
+        transform: translate(-50%, -50%);
+        border: 2px solid red;
+    }
+    .img-text2{
+        position: absolute;
+        bottom: -20px;
+        left: 110px;
+        transform: translate(-50%, -50%);
+        border: 2px solid red;
     }
     #obrazek{
         position:relative;
-        top:0px;
-        left:0px;
-        height:100%;
+        height: 100%;
         width: 100%;
     }
     #left{
@@ -324,7 +336,7 @@
         <div class="col my-col1">
             <h2 class="h2">
                     <span>
-                        VÝHODY KRAMER
+                        VÝHODY NAKLADAČŮ KRAMER
                     </span>
             </h2>
         </div>
@@ -336,7 +348,9 @@
         </div>
         <div class="col my-col4">
             <img class="koncept" src="obrazky/kramer_pevny_ram.png">
+            <p class="img-text1">Centered</p>
             <img class="koncept" src="obrazky/kloubovy_nakladac.png">
+            <p class="img-text2">Centered</p>
         </div>
     </div>
 <br>
@@ -347,7 +361,7 @@
             <img class="koncept" src="obrazky/kloubovy_nakladac_zataceni.png">
         </div>
         <div class="col-7 my-col4">
-            <p class="text1"><span class="text-bold"> Konstrukce podvozku</span> </p>
+            <p class="text1"><span class="text-bold"> Poloměr otáčení</span> </p>
             <p class="text1"> Nakladač KRAMER má, díky své konstukci, až dvojnásobně větší řídící úhel (2x40°) oproti kloubovému nakladači, díky tomu dosahuje výrazně menších poloměrů otáčení.</p>
         </div>
     </div>
