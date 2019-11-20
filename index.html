@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:href="http://www.w3.org/1999/xhtml">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
+<title>Nakladače</title>
+<style>
+    body{
+        margin: 0px;
+        background-color: lightgrey;
+    }
+    .my-container {
+
+    }
+    .navbar{
+        text-align: center;
+    }
+    .navbar1{
+        margin-bottom: 70px;
+    }
+    .my-row {
+
+    }
+    .my-row1{
+        margin-bottom: -20px;
+    }
+    .my-row2{
+        text-align: center;
+    }
+    .row-button{
+        text-align: right;
+        margin-right: 15px;
+    }
+    .md-form1{
+        min-width: 510px;
+        position: absolute;
+    }
+    .logo {
+        width: 200px;
+    }
+    .footer {
+        margin: 0 auto;
+    }
+    .left {
+        text-align: left;
+        margin: 0 auto;
+    }
+    .text {
+        color: white;
+        margin-left: 50px;
+        margin-top: -5px;
+        font-family: Calibri;
+    }
+    .text-gdpr{
+        font-size: 15px;
+        font-family: Calibri;
+    }
+    .seda{
+        font-family: Calibri;
+        color: #535E5D;
+    }
+    .footer_text{
+        font-family: Calibri;
+        font-size: 20px;
+        color: white;
+        margin-bottom: -5px;
+    }
+    .footer_nadpis{
+        color: white;
+        margin-left: 30px;
+    }
+    .h2{
+        color: black;
+        font-family: Calibri;
+        font-weight: bold;
+        font-size: 40px;
+        margin-top: -10px;
+        margin-bottom: -10px;
+        text-align: center;
+        border-bottom: 3px solid #000;
+        line-height: 0.1em;
+    }
+    .h2 span{
+        background: lightgrey;
+        padding:0 10px;
+    }
+
+    .text1{
+        font-family: Calibri;
+        font-size: 18px;
+    }
+    .text-bold{
+        font-weight: bold;
+        font-family: Calibri;
+    }
+    .my-col3{
+
+    }
+    .my-col-left{
+        text-align: left;
+
+    }
+    .my-col1{
+        text-align: center;
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+    .my-col2{
+        background-color: white;
+        text-align: center;
+        margin: 10px;
+        border-radius: 20px;
+        border-top: 2px solid yellow;
+    }
+    .my-col4{
+        background-color: transparent;
+        margin: 10px;
+    }
+    .icons{
+        width: 60%;
+    }
+    .hodnota{
+        text-align: right;
+    }
+    .hodnoty{
+
+    }
+    .nazev{
+        font-family: Calibri;
+        font-weight: bold;
+        font-size: 17px;
+    }
+    .nazvy{
+        text-align: left;
+    }
+    .modely{
+        color: #B40000;
+        font-family: Calibri;
+        font-size: 35px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    .modely::first-letter{
+        color: black;
+    }
+    .tlacitko{
+        background-color: #343a40;
+        border: none;
+        color: white;
+        padding: 10px 100px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 15px;
+        border-radius: 10px;
+        transition: all 0.5s ease;
+    }
+    .tlacitko:hover{
+        background-color: yellow;
+        color: black;
+
+    }
+    .mb-4{
+        margin-top: -50px;
+    }
+    #obrazek{
+        position:relative;
+        top:0px;
+        left:0px;
+        height:100%;
+        width: 100%;
+    }
+    #left{
+        text-align: left;
+
+    }
+    #stred{
+        text-align: center;
+        font-size: 22px;
+
+    }
+    #right{
+        text-align: right;
+    }
+    @media screen and (max-width: 850px){
+        .md-form1{
+            position: relative;
+            min-width: auto;
+        }
+    }
+    @media screen and (max-width: 600px){
+        .text2{
+            font-family: Calibri;
+            color: white;
+            font-size: 2.3vh;
+        }
+        .row-button{
+            text-align: center;
+        }
+        .text-gdpr{
+            font-size: 10px;
+            font-family: Calibri;
+        }
+        .my-col3{
+            border: 2px solid red;
+            width: 2px;
+        }
+        .logo{
+            width: 50%;
+        }
+    }
+</style>
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+<div class="navbar1">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="col-4 my-col3">
+        <div id="left">
+            <img class="logo" src="obrazky/kramer_logo.png">
+        </div>
+    </div>
+
+    <div class="col-4 my-col3">
+        <div id="stred">
+            <p class="text"> <span class="seda"> Tel.</span> +420 123 456 789</p>
+        </div>
+    </div>
+
+    <div class="col-4 my-col3">
+        <div id="right">
+            <img class="logo" src="obrazky/arte_logo.png">
+        </div>
+    </div>
+
+    <!---
+    <a class="navbar-brand" href="#"></a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        MOBILOVÉ MENU TLAČÍTKO
+        -->
+
+
+</nav>
+</div>
+<div class="uvod">
+        <img id="obrazek" src="obrazky/head.png">
+</div>
+
+
+
+<div class="container my-container">
+    <div class="row my-row">
+        <div class="col my-col1">
+                <h2 class="h2">
+                    <span>
+                        AKČNÍ NABÍDKA
+                    </span>
+                </h2>
+        </div>
+    </div>
+
+    <div class="row my-row">
+        <div class="col my-col4">
+            <p class="text1"> V souvislosti se zpřísňováním emisních norem a standardů si Vám dovolujeme nabídnout<span class="text-bold"> poslední nakladače KRAMER s motorem bez filtru pevných částic (DPF) dostupné skladem!</span> Jedná se ještě o motory, které splňují emisní normu Euro III.</p>
+
+            <p class="text1"> <span class="text-bold">Akce platí do vyprodání zásob!</span> Po jejich vyprodání budou dostupné už jen nové stroje z výroby, jejichž motory musí již splňovat emisní normu Euro V a mají filtr pevných částic.</p>
+
+            <p class="text1"> <span class="text-bold"> Využijte naší skvělé nabídky!</span> Pořiďte si nakladač KRAMER s motorem bez filtru pevných částic, dokud jsou ještě k dispozici. Oproti novým strojům ušetříte na provozních nákladech a při pořízení stroje dosáhnete úspory až 120 000 Kč na motoru.</p>
+
+    <p class="text1"> Skladem jsou dostupné nakladače KRAMER modely 5055, 5065 a 5075 v bohaté výbavě včetně:<br>
+    - 100% uzávěrka diferenciálu na přední nápravě<br>
+    - řízení všemi 4 koly<br>
+    - stabilizátor jízdy (tlumič nárazů ramene)<br>
+    </p>
+            <p class="text1">
+                <span class="text-bold">Některé modely jsou navíc vybaveny:</span><br>
+                - řízení přední nápravou<br>
+                - krabí chod<br>
+                - oranžový rotační maják<br>
+                - signalizace couvání<br>
+                - tlačítko odtlakování 3. hydraulického okruhu<br>
+                - 7pólová zásuvka pro přídavná zařízení v předu<br>
+                - přídavná pracovní světla vpředu a vzadu<br>
+                - ovládání 3. hydraulického okruhu na joysticku<br>
+                - prodloužené rameno<br>
+                - jeřábovací hák
+
+            </p>
+        </div>
+    </div>
+
+    <div class="row my-row">
+        <div class="col my-col1">
+            <h2 class="h2">
+                <span>
+                DOSTUPNÉ MODELY
+                </span>
+            </h2>
+        </div>
+    </div>
+
+
+    <div class="row my-row">
+        <div class="col my-col2">
+            <p class="modely">
+                5055
+            </p>
+            <img class="icons" src="modely/5055.jpg">
+            <div class="hodnoty">
+                <p class="nazev">
+                    Váha
+                </p>
+                <div class="progress">
+                  <div class="progress-bar bg-warning" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+            <div class="row my-row1">
+                <div class="col my-col-6">
+                    <p class="nazvy">
+                        3450
+                    </p>
+                </div>
+                <div class="col my-col-6">
+                    <p class="hodnota">
+                        kg
+                    </p>
+                </div>
+            </div>
+
+            <div class="hodnoty">
+                <p class="nazev">
+                    Objem lopaty
+                </p>
+                <div class="progress">
+                    <div class="progress-bar bg-warning" role="progressbar" style="width: 15%;" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+            <div class="row my-row1">
+                <div class="col my-col-6">
+                    <p class="nazvy">
+                        0,55
+                    </p>
+                </div>
+                <div class="col my-col-6">
+                    <p class="hodnota">
+                        m3
+                    </p>
+                </div>
+            </div>
+
+            <div class="hodnoty">
+                <p class="nazev">
+                    Nosnost na vidlích
+                </p>
+                <div class="progress">
+                    <div class="progress-bar bg-warning" role="progressbar" style="width: 18%;" aria-valuenow="18" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+            <div class="row my-row1">
+                <div class="col my-col-6">
+                    <p class="nazvy">
+                        1600
+                    </p>
+                </div>
+                <div class="col my-col-6">
+                    <p class="hodnota">
+                        kg
+                    </p>
+                </div>
+            </div>
+
+            <div class="hodnoty">
+                <p class="nazev">
+                    Výkon motoru
+                </p>
+                <div class="progress">
+                    <div class="progress-bar bg-warning" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+            <div class="row my-row1">
+                <div class="col my-col-6">
+                    <p class="nazvy">
+                        35
+                    </p>
+                </div>
+                <div class="col my-col-6">
+                    <p class="hodnota">
+                        kW
+                    </p>
+                </div>
+            </div>
+
+            <div class="hodnoty">
+                <p class="nazev">
+                    Šířka stroje
+                </p>
+                <div class="progress">
+                    <div class="progress-bar bg-warning" role="progressbar" style="width: 15%;" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+            <div class="row my-row1">
+                <div class="col my-col-6">
+                    <p class="nazvy">
+                        1566
+                    </p>
+                </div>
+                <div class="col my-col-6">
+                    <p class="hodnota">
+                        mm
+                    </p>
+                </div>
+            </div>
+            <div class="row my-row">
+                <div class="col my-col">
+                    <a href="#">
+                    <button class="tlacitko">
+                        Více informací
+                    </button>
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="col my-col2">
+            <p class="modely">
+                5065
+            </p>
+            <img class="icons" src="modely/5065.jpg">
+            <div class="hodnoty">
+                <p class="nazev">
+                    Váha
+                </p>
+                <div class="progress">
+                    <div class="progress-bar bg-warning" role="progressbar" style="width: 35%;" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+            <div class="row my-row1">
+                <div class="col my-col-6">
+                    <p class="nazvy">
+                        3800
+                    </p>
+                </div>
+                <div class="col my-col-6">
+                    <p class="hodnota">
+                        kg
+                    </p>
+                </div>
+            </div>
+
+            <div class="hodnoty">
+                <p class="nazev">
+                    Objem lopaty
+                </p>
+                <div class="progress">
+                    <div class="progress-bar bg-warning" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+            <div class="row my-row1">
+                <div class="col my-col-6">
+                    <p class="nazvy">
+                        0,65
+                    </p>
+                </div>
+                <div class="col my-col-6">
+                    <p class="hodnota">
+                        m3
+                    </p>
+                </div>
+            </div>
+
+            <div class="hodnoty">
+                <p class="nazev">
+                    Nosnost na vidlích
+                </p>
+                <div class="progress">
+                    <div class="progress-bar bg-warning" role="progressbar" style="width: 29%;" aria-valuenow="29" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+            <div class="row my-row1">
+                <div class="col my-col-6">
+                    <p class="nazvy">
+                        1750
+                    </p>
+                </div>
+                <div class="col my-col-6">
+                    <p class="hodnota">
+                        kg
+                    </p>
+                </div>
+            </div>
+
+            <div class="hodnoty">
+                <p class="nazev">
+                    Výkon motoru
+                </p>
+                <div class="progress">
+                    <div class="progress-bar bg-warning" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+            <div class="row my-row1">
+                <div class="col my-col-6">
+                    <p class="nazvy">
+                        35
+                    </p>
+                </div>
+                <div class="col my-col-6">
+                    <p class="hodnota">
+                        kW
+                    </p>
+                </div>
+            </div>
+
+            <div class="hodnoty">
+                <p class="nazev">
+                    Šířka stroje
+                </p>
+                <div class="progress">
+                    <div class="progress-bar bg-warning" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+            <div class="row my-row1">
+                <div class="col my-col-6">
+                    <p class="nazvy">
+                        1595
+                    </p>
+                </div>
+                <div class="col my-col-6">
+                    <p class="hodnota">
+                        mm
+                    </p>
+                </div>
+            </div>
+            <div class="row my-row">
+                <div class="col my-col">
+                    <a href="#">
+                        <button class="tlacitko">
+                            Více informací
+                        </button>
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="col my-col2">
+            <p class="modely">
+                5075
+            </p>
+            <img class="icons" src="modely/5075.jpg">
+            <div class="hodnoty">
+                <p class="nazev">
+                    Váha
+                </p>
+                <div class="progress">
+                    <div class="progress-bar bg-warning" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+            <div class="row my-row1">
+                <div class="col my-col-6">
+                    <p class="nazvy">
+                        4100
+                    </p>
+                </div>
+                <div class="col my-col-6">
+                    <p class="hodnota">
+                        kg
+                    </p>
+                </div>
+            </div>
+
+            <div class="hodnoty">
+                <p class="nazev">
+                    Objem lopaty
+                </p>
+                <div class="progress">
+                    <div class="progress-bar bg-warning" role="progressbar" style="width: 35%;" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+            <div class="row my-row1">
+                <div class="col my-col-6">
+                    <p class="nazvy">
+                        0,75
+                    </p>
+                </div>
+                <div class="col my-col-6">
+                    <p class="hodnota">
+                        m3
+                    </p>
+                </div>
+            </div>
+
+            <div class="hodnoty">
+                <p class="nazev">
+                    Nosnost na vidlích
+                </p>
+                <div class="progress">
+                    <div class="progress-bar bg-warning" role="progressbar" style="width: 40%;" aria-valuenow="40vý" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+            <div class="row my-row1">
+                <div class="col my-col-6">
+                    <p class="nazvy">
+                        1900
+                    </p>
+                </div>
+                <div class="col my-col-6">
+                    <p class="hodnota">
+                        kg
+                    </p>
+                </div>
+            </div>
+
+            <div class="hodnoty">
+                <p class="nazev">
+                    Výkon motoru
+                </p>
+                <div class="progress">
+                    <div class="progress-bar bg-warning" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+            <div class="row my-row1">
+                <div class="col my-col-6">
+                    <p class="nazvy">
+                        35
+                    </p>
+                </div>
+                <div class="col my-col-6">
+                    <p class="hodnota">
+                        kW
+                    </p>
+                </div>
+            </div>
+
+            <div class="hodnoty">
+                <p class="nazev">
+                    Šířka stroje
+                </p>
+                <div class="progress">
+                    <div class="progress-bar bg-warning" role="progressbar" style="width: 34%;" aria-valuenow="34" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+            <div class="row my-row1">
+                <div class="col my-col-6">
+                    <p class="nazvy">
+                        1720
+                    </p>
+                </div>
+                <div class="col my-col-6">
+                    <p class="hodnota">
+                        mm
+                    </p>
+                </div>
+            </div>
+            <div class="row my-row">
+                <div class="col my-col">
+                    <a href="#">
+                        <button class="tlacitko">
+                            Více informací
+                        </button>
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="row my-row">
+        <div class="col my-col1">
+            <h2 class="h2">
+                <span>
+                NAPIŠTE NÁM
+            </span>
+            </h2>
+        </div>
+    </div>
+    <div class="row my-row">
+        <div class="col my-col">
+            <section class="mb-4">
+
+                <p class="text-center w-responsive mx-auto mb-5">V případě potřeby rychlé odpovědi nám neváhejte zavolat!</p>
+
+                <div class="row my-row2">
+
+                    <div class="col-md-9 mb-md-0 mb-5">
+                        <form id="contact-form" name="contact-form" action="funkce.php" method="POST">
+
+                            <div class="row">
+
+                                <div class="col-md-4">
+                                    <div class="md-form mb-0">
+                                        <label for="name" class=""></label>
+                                        <input type="text" id="name" name="name" class="form-control" maxlength="300" placeholder="*Jméno">
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="md-form mb-0">
+                                        <label for="prijmeni" class=""></label>
+                                        <input type="text" id="prijmeni" name="prijmeni" class="form-control" maxlength="30" placeholder="*Příjmení">
+                                    </div>
+                                </div>
+                                <div class="col my-form">
+                                    <div class="md-form1">
+                                        <label for="message"></label>
+                                        <textarea type="text" id="message" name="message" rows="3" class="form-control md-textarea" placeholder="*Zpráva"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="md-form mb-0">
+                                        <label for="email" class=""></label>
+                                        <input type="text" id="email" name="email" class="form-control" maxlength="30" placeholder="*Email">
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="md-form mb-0">
+                                        <label for="cislo" class=""></label>
+                                        <input type="number" id="cislo" name="cislo" class="form-control" min="9" max="13" placeholder="*Telefon">
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="row my-row">
+                <div class="col my-col-left">
+                    <div class="col gdpr">
+                        <input class="form-group" type="checkbox" required> <span class="text-gdpr">Souhlasím se zpracováním osobních údajů</span> <br>
+                        <a target="_blank" href="http://www.arte-praha.cz/data/ProhlaseniSpolecnostiGDPR2018.pdf">Prohlášení o ochraně a zpracování osobních údajů</a>
+                    </div>
+                </div>
+
+                <div class="row-button">
+                    <div class="col my-col3">
+                        <button class="tlacitko" onclick="document.getElementById('contact-form').submit();">Odeslat</button>
+                        <script>
+                        var form = document.forms.SubmitBtn;
+                        form.onsubmit = function(){
+                            alert("Email zaslán!");
+                            return true;
+                        }
+                    </script>
+                    </div>
+                </div>
+                </div>
+
+            </section>
+        </div>
+    </div>
+</div>
+<footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+    <div class="container text-center">
+        <div class="row footer">
+            <h4 class="footer_nadpis"><span class="text-bold">Specialisté KRAMER</span></h4>
+        </div>
+        <div class="row footer">
+            <div class="col left">
+                <div class="footer col">
+
+                    <p class="footer_text">
+                        Jan Müller
+                    </p>
+                    <p class="footer_text">
+                        Telefon: +420 603 413 709
+                    </p>
+                    <p class="footer_text">
+                        E-mail: jmuller@arte-praha.cz
+                    </p>
+                </div>
+            </div>
+            <div class="col left">
+                <div class="footer col">
+                    <p class="footer_text">
+                        Pavel Müller
+                    </p>
+                    <p class="footer_text">
+                        Telefon: +420 605 404 548
+                    </p>
+                    <p class="footer_text">
+                        E-mail: pmuller@arte-praha.cz
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</footer>
+</body>
+</html>
