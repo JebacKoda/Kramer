@@ -159,7 +159,24 @@
     .tlacitko:hover{
         background-color: yellow;
         color: black;
+    }
 
+    .tlacitko1{
+        background-color: #343a40;
+        border: none;
+        color: white;
+        padding: 10px 100px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 15px;
+        border-radius: 10px;
+        transition: all 0.5s ease;
+    }
+    .tlacitko1:hover{
+        background-color: yellow;
+        color: black;
     }
     .mb-4{
         margin-top: -50px;
@@ -685,7 +702,7 @@
 
                 <div class="row-button">
                     <div class="col my-col3">
-                        <button class="tlacitko" onclick="document.getElementById('contact-form').submit();">Odeslat</button>
+                        <button class="tlacitko1" onclick="document.getElementById('contact-form').submit();">Odeslat</button>
                         <script>
                         var form = document.forms.SubmitBtn;
                         form.onsubmit = function(){
