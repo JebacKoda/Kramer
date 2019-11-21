@@ -199,7 +199,12 @@ body{
         width: 300px;
     }
     .my-col2{
-        min-width: 500px;
+        max-width: 500px;
+        margin: 10px auto;
+    }
+    .my-row3{
+        align-content: center;
+        border: 2px solid transparent;
     }
     .text1{
         font-size: 30px;
