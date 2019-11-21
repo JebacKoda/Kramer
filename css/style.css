@@ -222,21 +222,7 @@ body{
         font-size: 20px;
     }
 }
-@media screen and (max-width: 600px){
-    .row-button{
-        text-align: center;
-    }
-    .text-gdpr{
-        font-size: 10px;
-        font-family: Calibri;
-    }
-    .my-col3{
-        width: 2px;
-    }
-    .logo{
-        width: 50%;
-    }
-}
+
 @media screen and (max-width: 767px){
     #message{
         position: relative;
@@ -245,5 +231,29 @@ body{
     }
     .my-row-send-contact{
         margin-top: 70px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .row-button{
+        text-align: center;
+    }
+    .tlacitko1{
+        position: absolute;
+        right: -15px;
+    }
+    .text-gdpr{
+        font-size: 10px;
+        font-family: Calibri;
+    }
+    .gdpr{
+        font-size: 10px;
+        font-family: Calibri;
+    }
+    .my-col3{
+        width: 2px;
+    }
+    .logo{
+        width: 50%;
     }
 }
