@@ -221,9 +221,6 @@ body{
     .hodnota{
         font-size: 20px;
     }
-}
-
-@media screen and (max-width: 768px){
     #message{
         position: relative;
         top: 125px;
@@ -232,6 +229,10 @@ body{
     .my-row-send-contact{
         margin-top: 70px;
     }
+}
+
+@media screen and (max-width: 768px){
+
 }
 
 @media screen and (max-width: 600px){
