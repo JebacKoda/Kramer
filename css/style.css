@@ -172,8 +172,7 @@ body{
     margin-top: -50px;
 }
 .koncept{
-    width: 150px;
-    margin-left: 20px;
+    width: 47%;
     border-radius: 20px;
 }
 #obrazek{
@@ -221,6 +220,9 @@ body{
     .hodnota{
         font-size: 20px;
     }
+}
+
+@media screen and (max-width: 768px){
     #message{
         position: relative;
         top: 125px;
@@ -229,10 +231,6 @@ body{
     .my-row-send-contact{
         margin-top: 70px;
     }
-}
-
-@media screen and (max-width: 768px){
-
 }
 
 @media screen and (max-width: 600px){
