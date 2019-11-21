@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0b4ca21e-752a-4f1d-baa2-a11e0b24069d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,11 +13,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-984">
-              <caret line="176" column="21" lean-forward="true" selection-start-line="176" selection-start-column="21" selection-end-line="176" selection-end-column="21" />
+            <state relative-caret-position="226">
+              <caret line="489" column="26" lean-forward="true" selection-start-line="489" selection-start-column="26" selection-end-line="489" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="624">
+              <caret line="288" column="5" selection-start-line="288" selection-start-column="5" selection-end-line="288" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -36,12 +46,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>logo</find>
       <find>my-col3</find>
       <find>footer_text</find>
       <find>md-form</find>
@@ -71,6 +81,7 @@
       <find>navbar</find>
       <find>footer</find>
       <find>tlacitko1</find>
+      <find>prohl</find>
     </findStrings>
     <replaceStrings>
       <replace>progress-bar bg-warning</replace>
@@ -87,6 +98,7 @@
         <option value="$PROJECT_DIR$/js/bootstrap.js" />
         <option value="$PROJECT_DIR$/funkce.php" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -100,7 +112,22 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Kramer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kramer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kramer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kramer" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
     </panes>
   </component>
@@ -148,7 +175,7 @@
       <workItem from="1571729376405" duration="51166000" />
       <workItem from="1572017228904" duration="7191000" />
       <workItem from="1572507210679" duration="60985000" />
-      <workItem from="1574238631247" duration="19429000" />
+      <workItem from="1574238631247" duration="20542000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1574239160713</created>
@@ -360,18 +387,32 @@
       <option name="project" value="LOCAL" />
       <updated>1574326785440</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="test">
+      <created>1574327564581</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1574327564581</updated>
+    </task>
+    <task id="LOCAL-00032" summary="test">
+      <created>1574328074255</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1574328074255</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138771000" />
+    <option name="totallyTimeSpent" value="139884000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="762" y="0" width="781" height="830" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.23489933" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23489933" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.24966443" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" weight="0.3286119" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -429,8 +470,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-984">
-          <caret line="176" column="21" lean-forward="true" selection-start-line="176" selection-start-column="21" selection-end-line="176" selection-end-column="21" />
+        <state relative-caret-position="226">
+          <caret line="489" column="26" lean-forward="true" selection-start-line="489" selection-start-column="26" selection-end-line="489" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="288" column="5" selection-start-line="288" selection-start-column="5" selection-end-line="288" selection-end-column="5" />
         </state>
       </provider>
     </entry>
