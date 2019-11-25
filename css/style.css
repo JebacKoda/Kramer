@@ -176,6 +176,9 @@ body{
     width: 47%;
     border-radius: 20px;
 }
+#message{
+    padding-bottom: 20px;
+}
 #obrazek{
     position: relative;
     width: 100%;
@@ -237,6 +240,7 @@ body{
         position: relative;
         top: 125px;
         width: 510px;
+        padding-bottom: 0;
     }
     .my-row-send-contact{
         margin-top: 70px;
