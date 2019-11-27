@@ -10,7 +10,8 @@ if(isset( $_POST['message']))
 if(isset( $_POST['cislo']))
     $cislo = $_POST['cislo'];
 
-header('Content-Type: text/html; charset=utf-8');
+$headers = "MIME-Version: 1.0" . "\r\n";
+$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 $content="Od: $name $prijmeni \r\n Číslo: $cislo \r\n Email: $email \r\n Zpráva: $message";
 $recipient = "lukic@arte-praha.cz";
 $mailheader = "From: $email \r\n";
