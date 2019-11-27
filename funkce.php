@@ -10,10 +10,19 @@ if(isset( $_POST['message']))
 if(isset( $_POST['cislo']))
     $cislo = $_POST['cislo'];
 
+$subject = "Email z kramer-nakladace";
+
 $headers = "MIME-Version: 1.0" . "\r\n";
 $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 $content="Od: $name $prijmeni \r\n Číslo: $cislo \r\n Email: $email \r\n Zpráva: $message";
 $recipient = "info@kramer-nakladace.cz";
 $mailheader = "From: $email \r\n";
 mail($recipient, $prijmeni, $content, $mailheader) or die("Chyba!");
+
+if(mail($recipient,$subject,$message,$headers)){
+    // Message if mail has been sent
+    echo "<script>
+         alert('Email úspěšně zaslán');
+          </script>";
+}
 ?>
