@@ -22,7 +22,7 @@ mail($recipient, $prijmeni, $content, $mailheader) or die("Chyba!");
 if(mail($recipient,$subject,$content,$headers)) {
     echo "<script>
          alert('Email úspěšně zaslán');
-         window.location.href= \"index.html\";
+         window.location.href= \"https://kramer-nakladace.cz\";
           </script>";
 }
 ?>
