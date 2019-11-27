@@ -11,21 +11,6 @@
 <head>
     <meta charset="UTF-8">
     <link rel="icon" href="obrazky/kramer_favicon.png">
-
-    <script type="text/javascript">
-        $(document).ready( function () {
-            $('form').submit( function () {
-                var formdata = $(this).serialize();
-                $.ajax({
-                    type: "POST",
-                    url: "http://www.kramer-nakladace.cz/funkce.php",
-                    data: formdata
-                });
-                return false;
-            });
-        });
-    </script>
-
 </head>
 <body>
 <div class="navbar1">
