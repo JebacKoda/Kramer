@@ -112,6 +112,10 @@ body{
 .hodnoty{
 
 }
+.my-col-left{
+    right: 15px;
+    top: 10px;
+}
 .nazev{
     font-family: Calibri;
     font-weight: bold;
