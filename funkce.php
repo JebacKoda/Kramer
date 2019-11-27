@@ -22,7 +22,6 @@ mail($recipient, $prijmeni, $content, $mailheader) or die("Chyba!");
 if(mail($recipient,$subject,$content,$headers)) {
     echo "<script>
          alert('Email úspěšně zaslán');
-         window.location.href = \"\"
           </script>";
 }
 ?>
