@@ -1,3 +1,6 @@
+<html>
+<img id="obrazek" src="obrazky/head.jpg">
+</html>
 <?php
 if(isset( $_POST['name']))
     $name = $_POST['name'];
