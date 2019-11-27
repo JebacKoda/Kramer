@@ -10,7 +10,8 @@ if(isset( $_POST['message']))
 if(isset( $_POST['cislo']))
     $cislo = $_POST['cislo'];
 
-$content="Od: $name $prijmeni \n Číslo: $cislo \n Email: $email \n Zpráva: $message";
+header('Content-Type: text/html; charset=utf-8');
+$content="Od: $name $prijmeni \r\n Číslo: $cislo \r\n Email: $email \r\n Zpráva: $message";
 $recipient = "lukic@arte-praha.cz";
 $mailheader = "From: $email \r\n";
 mail($recipient, $prijmeni, $content, $mailheader) or die("Chyba!");
