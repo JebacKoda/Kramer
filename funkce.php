@@ -19,13 +19,10 @@ $recipient = "info@kramer-nakladace.cz";
 $mailheader = "From: $email \r\n";
 mail($recipient, $prijmeni, $content, $mailheader) or die("Chyba!");
 
-if(mail($recipient,$subject,$content,$headers)){
+if(mail($recipient,$subject,$content,$headers)) {
     echo "<script>
          alert('Email úspěšně zaslán');
-         window.location.hostname;
+         window.location= \"index.html\";
           </script>";
 }
 ?>
-<html>
-<img id="obrazek" src="obrazky/head.jpg">
-</html>

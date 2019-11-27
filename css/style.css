@@ -17,9 +17,6 @@ body{
 .my-row1{
     margin-bottom: -20px;
 }
-.my-row2{
-    text-align: center;
-}
 .row-button{
     text-align: right;
     margin-right: 15px;
@@ -175,8 +172,13 @@ body{
     width: 47%;
     border-radius: 20px;
 }
+.my-col5{
+    margin-left: 30px;
+}
+
 #message{
     padding-bottom: 20px;
+    width: 540px;
 }
 #obrazek{
     position: relative;
@@ -194,6 +196,11 @@ body{
 }
 #right{
     text-align: right;
+}
+@media screen and (max-width: 1440px){
+    #message{
+        padding-bottom: 0;
+    }
 }
 @media screen and (max-width: 1080px){
     .md-form1{
@@ -230,6 +237,17 @@ body{
     }
     .koncept{
         width: 100%;
+    }
+}
+@media screen and (max-width: 1200px){
+    #message{
+        width: 450px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    #message{
+        width: auto;
     }
 }
 
