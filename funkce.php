@@ -26,3 +26,6 @@ if(mail($recipient,$subject,$content,$headers)){
           </script>";
 }
 ?>
+<html>
+<img src="obrazky/head.jpg">
+</html>
