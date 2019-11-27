@@ -19,8 +19,7 @@ $recipient = "info@kramer-nakladace.cz";
 $mailheader = "From: $email \r\n";
 mail($recipient, $prijmeni, $content, $mailheader) or die("Chyba!");
 
-if(mail($recipient,$subject,$message,$headers)){
-    // Message if mail has been sent
+if(mail($recipient,$subject,$content,$headers)){
     echo "<script>
          alert('Email úspěšně zaslán');
           </script>";
