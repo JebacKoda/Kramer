@@ -203,7 +203,7 @@ body{
 }
 @media screen and (max-width: 1440px){
     #message{
-        padding-bottom: 0;
+        padding-bottom: -20px;
     }
 }
 @media screen and (max-width: 1080px){
@@ -246,6 +246,7 @@ body{
 @media screen and (max-width: 1200px){
     #message{
         width: 450px;
+
     }
 }
 
