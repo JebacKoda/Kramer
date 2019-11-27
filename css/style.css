@@ -201,7 +201,7 @@ body{
 #right{
     text-align: right;
 }
-@media screen and (max-width: 1440px){
+@media screen and (max-width: 1440px) and (max-width: 1081px){
     #message{
         padding-bottom: -20px;
     }
