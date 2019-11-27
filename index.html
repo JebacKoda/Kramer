@@ -2,11 +2,11 @@
 <html lang="en" xmlns:href="http://www.w3.org/1999/xhtml">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <link rel="stylesheet" href="css/style.css">
+<link rel="script" href="js/js.js">
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <script src="js/bootstrap.js"></script>
 <script src="js/bootstrap.bundle.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-<script src="js/js.js"></script>
 <title>Nakladače-Akce</title>
 <head>
     <meta charset="UTF-8">
@@ -489,14 +489,14 @@
                 <div class="row my-row-send-contact">
                 <div class="col my-col-left">
                     <div class="col my-gdpr">
-                        <input class="form-group" type="checkbox" required> <span class="text-gdpr">Souhlasím se zpracováním osobních údajů</span> <br>
+                        <input class="form-group" type="checkbox" value="1" onclick="terms_changed(this)" id="check"> <span class="text-gdpr">Souhlasím se zpracováním osobních údajů</span> <br>
                         <a target="_blank" href="http://www.arte-praha.cz/data/ProhlaseniSpolecnostiGDPR2018.pdf">Prohlášení o ochraně a zpracování osobních údajů</a>
                     </div>
                 </div>
 
                 <div class="row-button">
                     <div class="col my-col5">
-                        <button class="tlacitko1" onclick="document.getElementById('contact-form').submit();">Odeslat</button>
+                        <button class="tlacitko1" disabled onclick="document.getElementById('contact-form').submit();">Odeslat</button>
                         <script>
                         var form = document.forms.SubmitBtn;
                         form.onsubmit = function(){

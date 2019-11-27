@@ -1,6 +1,3 @@
-<html>
-<img id="obrazek" src="obrazky/head.jpg">
-</html>
 <?php
 if(isset( $_POST['name']))
     $name = $_POST['name'];
@@ -20,7 +17,7 @@ $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 $content = "Od: $name $prijmeni \r\n Číslo: $cislo \r\n Email: $email \r\n Zpráva: $message";
 $recipient = "info@kramer-nakladace.cz";
 
-if(mail($recipient,$subject,$content,$headers)) {
+if(mail($content,$recipient,$subject,$headers)) {
     echo "<script>
          alert('Email úspěšně zaslán');
          window.location.href= \"https://kramer-nakladace.cz\";
