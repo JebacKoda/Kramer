@@ -27,5 +27,5 @@ if(mail($recipient,$subject,$content,$headers)){
 }
 ?>
 <html>
-<img src="obrazky/head.jpg">
+<img id="obrazek" src="obrazky/head.jpg">
 </html>
