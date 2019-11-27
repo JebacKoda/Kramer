@@ -19,8 +19,6 @@ $headers = "MIME-Version: 1.0" . "\r\n";
 $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 $content = "Od: $name $prijmeni \r\n Číslo: $cislo \r\n Email: $email \r\n Zpráva: $message";
 $recipient = "info@kramer-nakladace.cz";
-$mailheader = "From: $email \r\n";
-mail($recipient, $prijmeni, $content, $mailheader) or die("Chyba!");
 
 if(mail($recipient,$subject,$content,$headers)) {
     echo "<script>
