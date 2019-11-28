@@ -1,10 +1,11 @@
-function terms_changed(termsCheckBox){
-    //If the checkbox has been checked
-    if(termsCheckBox.checked){
-        //Set the disabled property to FALSE and enable the button.
-        document.getElementsByClassName("tlacitko1").disabled = false;
+//Add a JQuery click event handler onto our checkbox.
+$('#check').click(function(){
+    //If the checkbox is checked.
+    if($(this).is(':checked')){
+        //Enable the submit button.
+        $('#tlacitko1').attr("disabled", false);
     } else{
-        //Otherwise, disable the submit button.
-        document.getElementsByClassName("tlacitko1").disabled = true;
+        //If it is not checked, disable the button.
+        $('#tlacitko1').attr("disabled", true);
     }
-}
+});
