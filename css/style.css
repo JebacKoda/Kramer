@@ -76,7 +76,7 @@ body{
 
 .text1{
     font-family: Calibri;
-    font-size: calc(0.35vw + 0.8em);
+    font-size: calc(0.35vw + 0.95em);
 }
 .text-bold{
     font-weight: bold;

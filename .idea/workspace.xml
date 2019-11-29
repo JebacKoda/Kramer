@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0b4ca21e-752a-4f1d-baa2-a11e0b24069d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,14 +83,7 @@
       <workItem from="1574752651597" duration="16605000" />
       <workItem from="1574861912307" duration="7734000" />
       <workItem from="1574986713390" duration="878000" />
-      <workItem from="1574987700839" duration="3438000" />
-    </task>
-    <task id="LOCAL-00022" summary="test">
-      <created>1574255879106</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1574255879106</updated>
+      <workItem from="1574987700839" duration="3781000" />
     </task>
     <task id="LOCAL-00023" summary="test">
       <created>1574255955478</created>
@@ -429,7 +421,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574990393069</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="test">
+      <created>1574991184788</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1574991184788</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -440,10 +439,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1574990389846">
+    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1574991492733">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1574990389846" />
+    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1574991492733" />
     <state x="548" y="166" key="FileChooserDialogImpl" timestamp="1574987365559">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
