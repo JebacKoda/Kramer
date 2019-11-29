@@ -2,13 +2,12 @@
 <html lang="en" xmlns:href="http://www.w3.org/1999/xhtml">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <link rel="stylesheet" href="css/style.css">
-<link rel="script" href="js/js.js">
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <script src="js/bootstrap.js"></script>
 <script src="js/bootstrap.bundle.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <title>Nakladače-Akce</title>
 <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <meta charset="UTF-8">
     <link rel="icon" href="obrazky/kramer_favicon.png">
 </head>
@@ -493,34 +492,22 @@
                         <a target="_blank" href="http://www.arte-praha.cz/data/ProhlaseniSpolecnostiGDPR2018.pdf">Prohlášení o ochraně a zpracování osobních údajů</a>
                     </div>
                 </div>
-                    <form method="post">
                         <div>
-                            <label for="terms_and_conditions">I agree to the Terms and Conditions:</label>
-                            <input type="checkbox" id="terms_and_conditions" value="1" />
-                        </div>
-                        <div>
-                            <button type="submit" id="submit_button" disabled>Sign Up</button>
-                        </div>
-                    </form>
-                    <form method="post">
-                        <div>
-                            <label for="terms_and_conditions">I agree to the Terms and Conditions:</label>
-                            <input type="checkbox" id="terms_and_conditions" value="1" />
-                        </div>
-                        <div>
-                            <button type="submit" id="submit_button" disabled>Sign Up</button>
-                        </div>
-                    </form>
-
                 <div class="row-button">
                     <div class="col my-col5">
-                        <button id="tlacitko1" class="tlacitko1" onclick="document.getElementById('contact-form').submit();">Odeslat</button>
+                        <button id="tlacitko1" class="tlacitko1" disabled onclick="document.getElementById('contact-form').submit();">Odeslat</button>
                         <script>
-                        var form = document.forms.SubmitBtn;
-                        form.onsubmit = function(){
-
-                            return true;
-                        }
+                            //Add a JQuery click event handler onto our checkbox.
+                            $('#check').click(function(){
+                                //If the checkbox is checked.
+                                if($(this).is(':checked')){
+                                    //Enable the submit button.
+                                    $('#tlacitko1').attr("disabled", false);
+                                } else{
+                                    //If it is not checked, disable the button.
+                                    $('#tlacitko1').attr("disabled", true);
+                                }
+                            });
                     </script>
                     </div>
                 </div>
