@@ -498,25 +498,6 @@
                     <span class="tool-tip" data-toggle="tooltip" data-placement="top" title="<-Zaškrtněte prosím souhlas">
                         <button id="tlacitko1" class="tlacitko1" disabled onclick="document.getElementById('contact-form').submit();">Odeslat</button>
                     </span>
-
-                        <script>
-                                $(document).ready(function() {
-                                    $('[data-toggle="tooltip"]').tooltip();
-                                });
-                        </script>
-                            <script>
-                            //Add a JQuery click event handler onto our checkbox.
-                            $('#check').click(function(){
-                                //If the checkbox is checked.
-                                if($(this).is(':checked')){
-                                    //Enable the submit button.
-                                    $('#tlacitko1').attr("disabled", false);
-                                } else{
-                                    //If it is not checked, disable the button.
-                                    $('#tlacitko1').attr("disabled", true);
-                                }
-                            });
-                    </script>
                     </div>
                 </div>
                 </div>
