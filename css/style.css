@@ -234,6 +234,13 @@ body{
     .koncept{
         width: 100%;
     }
+    .tool-tip {
+        display: inline-block;
+    }
+
+    .tool-tip [disabled] {
+        pointer-events: none;
+    }
 }
 @media screen and (max-width: 1200px){
     #message{
