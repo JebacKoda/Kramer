@@ -169,6 +169,12 @@ body{
     background-color: yellow;
     color: black;
 }
+.tlacitko1:disabled{
+    opacity: 0.5;
+}
+.tlacitko1:enabled{
+    opacity: 1;
+}
 .mb-4{
     margin-top: -50px;
 }
