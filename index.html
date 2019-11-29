@@ -492,14 +492,35 @@
                         <a target="_blank" href="http://www.arte-praha.cz/data/ProhlaseniSpolecnostiGDPR2018.pdf">Prohlášení o ochraně a zpracování osobních údajů</a>
                     </div>
                 </div>
-
+                        <div>
                 <div class="row-button">
                     <div class="col my-col5">
-                        <button class="tlacitko1" onclick="document.getElementById('contact-form').submit();">Odeslat</button>
+                    <span class="tool-tip" data-toggle="tooltip" data-placement="top" title="<-Zaškrtněte prosím souhlas">
+                        <button id="tlacitko1" class="tlacitko1" disabled onclick="document.getElementById('contact-form').submit();">Odeslat</button>
+                    </span>
+
+                        <script>
+                                $(document).ready(function() {
+                                    $('[data-toggle="tooltip"]').tooltip();
+                                });
+                        </script>
+                            <script>
+                            //Add a JQuery click event handler onto our checkbox.
+                            $('#check').click(function(){
+                                //If the checkbox is checked.
+                                if($(this).is(':checked')){
+                                    //Enable the submit button.
+                                    $('#tlacitko1').attr("disabled", false);
+                                } else{
+                                    //If it is not checked, disable the button.
+                                    $('#tlacitko1').attr("disabled", true);
+                                }
+                            });
+                    </script>
                     </div>
                 </div>
                 </div>
-
+                </div>
             </section>
         </div>
     </div>
