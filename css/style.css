@@ -76,7 +76,7 @@ body{
 
 .text1{
     font-family: Calibri;
-    font-size: 18px;
+    font-size: calc(0.35vw + 0.8em);
 }
 .text-bold{
     font-weight: bold;
@@ -201,11 +201,6 @@ body{
 #right{
     text-align: right;
 }
-@media screen and (max-width: 1440px) and (max-width: 1081px){
-    #message{
-        padding-bottom: -20px;
-    }
-}
 @media screen and (max-width: 1080px){
     .md-form1{
         position: absolute;
@@ -218,9 +213,6 @@ body{
     .my-row3{
         align-content: center;
         border: 2px solid transparent;
-    }
-    .text1{
-        font-size: 30px;
     }
     .tlacitko{
         font-size: 30px;
