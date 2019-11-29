@@ -9,7 +9,7 @@ body{
     text-align: center;
 }
 .navbar1{
-    margin-bottom: 70px;
+    margin-bottom: 60px;
 }
 .my-row {
 
@@ -26,7 +26,7 @@ body{
     position: absolute;
 }
 .logo {
-    width: 200px;
+    width: calc(10vw + 3em);
 }
 .footer {
     margin: 0 auto;
@@ -195,7 +195,7 @@ body{
 }
 #stred{
     text-align: center;
-    font-size: 22px;
+    font-size: calc(0.7vw + 0.63em);
 
 }
 #right{
@@ -278,8 +278,5 @@ body{
     }
     .my-col3{
         width: 2px;
-    }
-    .logo{
-        width: 50%;
     }
 }

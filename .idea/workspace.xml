@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b4ca21e-752a-4f1d-baa2-a11e0b24069d" name="Default Changelist" comment="test">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/bojan.xml" afterDir="false" />
+    <list default="true" id="0b4ca21e-752a-4f1d-baa2-a11e0b24069d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
     </list>
@@ -85,14 +84,7 @@
       <workItem from="1574752651597" duration="16605000" />
       <workItem from="1574861912307" duration="7734000" />
       <workItem from="1574986713390" duration="878000" />
-      <workItem from="1574987700839" duration="2460000" />
-    </task>
-    <task id="LOCAL-00021" summary="test">
-      <created>1574255241156</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1574255241156</updated>
+      <workItem from="1574987700839" duration="3438000" />
     </task>
     <task id="LOCAL-00022" summary="test">
       <created>1574255879106</created>
@@ -430,7 +422,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574988772529</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="test">
+      <created>1574990393069</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1574990393069</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
