@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0b4ca21e-752a-4f1d-baa2-a11e0b24069d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funkce.php" beforeDir="false" afterPath="$PROJECT_DIR$/funkce.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="499" column="27" lean-forward="true" selection-start-line="499" selection-start-column="27" selection-end-line="499" selection-end-column="27" />
+            <state relative-caret-position="192">
+              <caret line="445" column="55" lean-forward="true" selection-start-line="445" selection-start-column="55" selection-end-line="445" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -32,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/funkce.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="289">
+              <caret line="17" column="79" selection-start-line="17" selection-start-column="79" selection-end-line="17" selection-end-column="79" />
             </state>
           </provider>
         </entry>
@@ -58,6 +57,7 @@
       <find>form</find>
       <find>tl</find>
       <find>submit</find>
+      <find>&lt;form</find>
       <find>tlacitko1</find>
     </findStrings>
   </component>
@@ -69,6 +69,7 @@
       <list>
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/funkce.php" />
       </list>
     </option>
   </component>
@@ -78,9 +79,10 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1140" />
-    <option name="width" value="785" />
-    <option name="height" value="1040" />
+    <option name="x" value="85" />
+    <option name="y" value="25" />
+    <option name="width" value="1750" />
+    <option name="height" value="980" />
   </component>
   <component name="ProjectId" id="1UGd8lML1I4ogtTvnOwNgLwCjfv" />
   <component name="ProjectView">
@@ -176,20 +178,6 @@
       <workItem from="1574986713390" duration="878000" />
       <workItem from="1574987700839" duration="3781000" />
       <workItem from="1575017709103" duration="291000" />
-    </task>
-    <task id="LOCAL-00026" summary="test">
-      <created>1574263296567</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1574263296567</updated>
-    </task>
-    <task id="LOCAL-00027" summary="test">
-      <created>1574266869015</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1574266869015</updated>
     </task>
     <task id="LOCAL-00028" summary="test">
       <created>1574322878204</created>
@@ -520,11 +508,25 @@
       <option name="project" value="LOCAL" />
       <updated>1575022412151</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="test">
+      <created>1575024408092</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1575024408092</updated>
+    </task>
+    <task id="LOCAL-00076" summary="test">
+      <created>1575028599570</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1575028599570</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5046000" />
+    <option name="totallyTimeSpent" value="6569000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -580,10 +582,10 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/js/js.js" />
-    <entry file="file://$PROJECT_DIR$/funkce.php">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="192">
+          <caret line="445" column="55" lean-forward="true" selection-start-line="445" selection-start-column="55" selection-end-line="445" selection-end-column="55" />
         </state>
       </provider>
     </entry>
@@ -594,10 +596,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/funkce.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="499" column="27" lean-forward="true" selection-start-line="499" selection-start-column="27" selection-end-line="499" selection-end-column="27" />
+        <state relative-caret-position="289">
+          <caret line="17" column="79" selection-start-line="17" selection-start-column="79" selection-end-line="17" selection-end-column="79" />
         </state>
       </provider>
     </entry>

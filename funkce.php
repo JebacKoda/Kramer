@@ -15,7 +15,7 @@ $subject = "Email z kramer-nakladace";
 $headers = "MIME-Version: 1.0" . "\r\n";
 $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 $content = "Od: $name $prijmeni \r\n Číslo: $cislo \r\n Email: $email \r\n Zpráva: $message";
-$recipient = "info@kramer-nakladace.cz";
+$recipient = "jmuller@arte-praha.cz, pmuller@arte-praha.cz, kovac@arte-praha.cz";
 
 if(mail($content,$recipient,$subject,$headers)) {
     echo "<script>
