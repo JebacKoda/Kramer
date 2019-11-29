@@ -444,10 +444,10 @@
                 <div class="row my-row2">
 
                     <div class="col-md-9 mb-md-0 mb-5">
-                        <form id="contact-form" name="contact-form" action="funkce.php" method="POST">
+                        <form id="contact-form" name="contact-form" method="POST" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">>
 
                             <div class="row my-row2">
-
+                                
                                 <div class="col-md-4">
                                     <div class="md-form mb-0">
                                         <label for="name" class=""></label>
