@@ -2,7 +2,7 @@
 mb_internal_encoding("UTF-8");
 
 if  (! $_POST) {
-    return
+    return;
 }
 
 $email = [];
@@ -29,7 +29,7 @@ if(isset($_POST['cislo']) && ! empty($_POST['cislo'])) {
 
 $subject = "Email z kramer-nakladace";
 
-$headers = []
+$headers = [];
 $headers[] = "MIME-Version: 1.0" . "\r\n";
 $headers[] = "Content-type:text/html;charset=UTF-8" . "\r\n";
 $headers[] = "Content-Transfer-Encoding: 8-bit";
