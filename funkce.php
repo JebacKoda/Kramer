@@ -15,15 +15,15 @@ if(isset($_POST['prijmeni']) && ! empty($_POST['prijmeni'])) {
     $email['prijmeni'] = htmlspecialchars(trim($_POST['prijmeni']));
 }
 
-if(isset( $_POST['email']) && ! empty($_POST['email'])) {
+if(isset($_POST['email']) && ! empty($_POST['email'])) {
     $email['email'] = htmlspecialchars(trim($_POST['email']));
 }
 
-if(isset( $_POST['message']) && ! empty($_POST['message'])) {
+if(isset($_POST['message']) && ! empty($_POST['message'])) {
     $email['message'] = htmlspecialchars(trim($_POST['message']));
 }
 
-if(isset( $_POST['cislo']) && ! empty($_POST['cislo'])) {
+if(isset($_POST['cislo']) && ! empty($_POST['cislo'])) {
     $email['cislo'] = htmlspecialchars(trim($_POST['cislo']));
 }
 
