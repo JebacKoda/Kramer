@@ -188,7 +188,7 @@ body{
 
 #message{
     padding-bottom: 20px;
-    width: 540px;
+    width: 540px
 }
 #obrazek{
     position: relative;
@@ -248,16 +248,10 @@ body{
         pointer-events: none;
     }
 }
+
 @media screen and (max-width: 1200px){
     #message{
         width: 450px;
-
-    }
-}
-
-@media screen and (max-width: 700px){
-    #message{
-        width: auto;
     }
 }
 
@@ -265,8 +259,8 @@ body{
     #message{
         position: relative;
         top: 125px;
-        width: 510px;
         padding-bottom: 0;
+        width: calc(80vw + 3.2rem);
     }
     .my-row-send-contact{
         margin-top: 70px;
