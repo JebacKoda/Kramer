@@ -30,11 +30,11 @@ $subject = "Email z kramer-nakladace";
 
 
 $headers = "MIME-Version: 1.0" . "\r\n";
-$headers = "Content-type:text/html;charset=UTF-8" . "\r\n";
-$content = "Od: " . $email['name'] . $email['prijmeni'] . PHP_EOL . 
-           "Číslo: " . $email['cislo'] . PHP_EOL . 
-           "Email: " . $email['email'] . PHP_EOL .
-           "Zpráva: " . $email['message'];
+$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+$content = "Od: " . $email['name'] . $email['prijmeni'] . PHP_EOL .
+    "Číslo: " . $email['cislo'] . PHP_EOL .
+    "Email: " . $email['email'] . PHP_EOL .
+    "Zpráva: " . $email['message'];
 $recipient = "info@kramer-nakladace.cz";
 
 if(mail($recipient, $subject, $content, $headers)) {
