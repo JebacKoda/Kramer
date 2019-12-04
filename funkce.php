@@ -28,9 +28,8 @@ if(isset($_POST['cislo']) && ! empty($_POST['cislo'])) {
 
 $subject = "Email z kramer-nakladace";
 
-
-$headers = "MIME-Version: 1.0" . "\r\n";
-$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+$headers = "MIME-Version: 1.0" . PHP_EOL;
+$headers .= "Content-type:text/html;charset=UTF-8";
 $content = "Od: " . $email['name'] . $email['prijmeni'] . PHP_EOL .
     "Číslo: " . $email['cislo'] . PHP_EOL .
     "Email: " . $email['email'] . PHP_EOL .
